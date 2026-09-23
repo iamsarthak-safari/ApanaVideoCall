@@ -1,6 +1,6 @@
-let IS_PROD = false;
+let IS_PROD = process.env.NODE_ENV === 'production';
 const server = IS_PROD ?
-    "https://apnacollegebackend.onrender.com" :
+    "https://apanavideocallbackend-k1d6.onrender.com" :
     "http://localhost:8000";
 
 
